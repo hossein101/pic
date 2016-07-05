@@ -8,7 +8,7 @@ global BASE_URL
 global flag
 def getVidId(query):
     print "Debug2"
-    api="AIzaSyD0-i9tHNRavrFXMlse7v8l9VfSo4KM2Hw"
+    api="#################################"
     query1=query.split()
     query2=('+').join(query1)
     url="https://www.googleapis.com/youtube/v3/search?part=id%2Csnippet&maxResults=1&q={}&key={}".format(query2,api)

@@ -72,7 +72,7 @@ def handle(msg):
             mp3send(down_link,chat_id)
 
 BASE_URL="http://youtubeinmp3.com/fetch/?format=JSON&video=http://www.youtube.com/watch?v="
-bot=telepot.Bot("243402180:AAF7QSJauUvJTbJUfxAehrW9PEojakoD26c")
+bot=telepot.Bot("254005294:AAFx884nLwOrdnI6swpzqQ4MAN4CtKy-oR8")
 flag=0
 #print bot.getMe()
 if flag==0:
